@@ -345,7 +345,10 @@ function initializeWidget(position = "bottom-right", welcomeMessage = "Welcome t
   return new MessageWidget(position, welcomeMessage, orgId, projectId);
 }
 
+/*
 initializeWidget("bottom-right", 
                  "Welcome to Rejoy Chat", 
                  "05e6e914-f22a-44cc-b66a-bf82081f539f", 
                  "029516a1-2663-465d-a20c-0d50fe15f30f");
+*/
+window.initializeWidget = initializeWidget;
